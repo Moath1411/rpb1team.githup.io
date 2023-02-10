@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+
+}
+body{
+  font-family: sans-serif;
+}
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar{
+  background-image: linear-gradient(to right,#000000,#2d2e2b);
+  
+  padding: 0 !important;
+}
+.navbar-brand{
+height: auto;
+padding-left: 20px;
+}
+.navbar-nav li{
+padding:  0 10px;
+
+
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight:600 ;
+  float:right ;
+  text-align: left;
+
+
+}
+.navbar-nav li a:hover{
+  border-bottom: 2px solid white;
+}
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+
+/*-========================================================*/
+#banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.148),rgba(0, 0, 0, 0.219)),
+  url('x1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 15%;
+
+}
+.promo-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 200px;
+  font-family: 'Kufam', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+.play-btn{
+  width: 45px;
+  margin: 20px;
+
+}
+#banner a{
+  color: #fff;
+  text-decoration: none;
+}
+.bottom-img{
+  width: 100%;
+}
+
+/*==================================================================*/
+#services{
+    padding: 80px 0;
+  
+  }
+  .service-img{
+    width: 500px;
+    margin-top: 20px;
+    transition: 0.5s;
+  
+  
+  }
+  .service-img:hover{
+    transform: translateY(-10px );
+  
+  }
+  .services{
+    padding: 20px 0;
+    padding-bottom: 40px;
+  
+  }
+  .services .emm{
+    height: 500px;
+    width: 450px;
+  }
+  
+  .services embed{
+    height: 400px;
+    width: 400px;
+    
+  }
+  .hora{
+    position: relative;
+    height: auto;
+    width: auto;
+   
+}
+.zz{
+    margin: 20px;
+}
+.zz{
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    align-items: center;
+    padding: 5px; 
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+.bb1:hover
+{   color: #000000;
+box-shadow:1px 1px 10px #000000;
+transition: 0.2s;
+}
+
+.bb1{
+ 
+    background-image: linear-gradient(to right,#6c87d0,#288da1);
+    border: 1px solid rgb(28, 45, 46);
+    font-size: 14px;
+    font-weight: 500;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+   
+}
+
+  
+  .title{
+    margin-top: 100px;
+  }
+ 
+  
+.head1 {
+  width: 40%;
+  height: 60px;
+  background-image: linear-gradient(to right, #263281, #1d2c90);
+  padding: 20px;
+  margin: auto;
+  border-radius: 150px 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.head1 h2 {
+
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 800;
+  color: white;
+  font-family: 'Kufam', sans-serif;
+
+}
+
+.pi8 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+.pi8 .picTre {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pi8 .picTre .ff1 a img {
+  margin-top: 10px;
+}
+
+.ff1 :hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+
+}
+ 
+  .services h4{
+    padding: 5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+  .title::before{
+    content: '';
+    background: #baba17;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+  }
+  .title::after{
+    content: '';
+    background: #baba17;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+  }
+    .picTre img {
+      border-radius: 20px;
+    }
+  /*=======================================*/
+
+  #social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+   }
+
+   #social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+   }
+   .social-icons img{
+    width: 60px;
+    transition: 0.5s;
+   }
+   .social-icons a:hover img{
+    transform: translateY(-10px );
+   }
+   /*========================================*/
+    
+   /*========================================*/
+    
+   #footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.148), rgba(0, 0, 0, 0.219)),
+        url('../../../footerPic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+   }
+   .footer-img{
+    width: 100%;
+   }
+   .footer-box{
+    padding: 10px;
+   }
+   .footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+    
+   }
